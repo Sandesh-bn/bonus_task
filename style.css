@@ -1,0 +1,44 @@
+.children {
+    display: flex;
+}
+
+#root {
+    width: fit-content;
+    text-align: center;
+}
+
+.el>span {
+    border: 1px solid;
+    padding: 10px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 15px 10px;
+    position: relative;
+}
+
+.el>span:hover {
+    cursor: pointer;
+}
+
+.hover {
+    background-color: #f0f8ff;
+}
+
+.forTitle {
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+}
